@@ -1,0 +1,1069 @@
+body{
+    font-family: 'Mulish', sans-serif;
+    z-index: 0;
+    overflow-x: hidden;
+}
+.dots{
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    }
+.servicesGrid .dotsMiddle{
+    position: absolute;
+    top: 290px;
+    right: -53px;
+    z-index: 0;
+    }
+body>.drop{
+    position: absolute;
+    top: 965px;
+    left: -20.42px;
+    opacity: 0.5;
+    z-index: 0;
+}
+.contentWrapper{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    padding-top:56px;
+    margin-bottom: 85px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    width: 160px;
+    height: 41px;
+}
+nav .rightSide{
+    line-height: 23px;
+    font-size: 18px;
+    color: #1F1534;
+    opacity: 0.5;
+}
+nav .rightSide ul{
+    display: flex;
+    justify-self: flex-end;
+    flex-wrap: wrap;
+}
+.sandwich{
+    display: none;
+}
+nav .rightSide ul li{
+  margin-left: 40px;
+  cursor: pointer;
+}
+nav .rightSide ul li:hover{
+    font-weight: bold;
+    color: #1F1534;
+    opacity: 1;
+}
+.firstContainer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 190px;
+}
+header .dots{
+    position: absolute;
+    top: 160px;
+    left: -50px;
+}
+.firstContainer img{
+    width: 58%;
+    display: flex;
+    object-fit: contain;
+    margin-right: -40px;
+}
+.firstContainer .left{
+    width: 40%;
+}
+.firstContainer .left h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 25px;
+}
+.firstContainer .left p{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    margin-bottom: 45px;
+}
+.firstContainer .left button{
+    background: #458FF6;
+    border: none;
+    border-radius: 55px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding: 17px 40px 17px 40px ;
+}
+.services h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+}
+.services h2::after{
+    content: '';
+    border-bottom: 2px solid #000;
+    width: 56px;
+    display: block;
+    margin: 26px auto 0 auto;
+
+}
+.services>p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+    max-width: 952px;
+    margin: 33px auto 80px auto;
+}
+.servicesGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 35px;
+    row-gap: 37px;
+    max-width: 1120px;
+    z-index: 2;
+    margin: 0 auto 70px auto;
+
+}
+.servicesGrid div{
+    padding: 46px 50px 46px 38px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    background-color: white;
+}
+.servicesGrid h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 56px;
+}
+.servicesGrid p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+
+}
+.servicesGrid div img{
+    min-height: 95px;
+    margin-bottom: 20px;
+}
+.services button{
+    font-weight: bold;
+    font-size: 18px;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    background-color: white;
+    border-radius: 55px;
+    padding: 17px 50px 17px 50px;
+    display: block;
+    margin: 0 auto 220px auto;
+}
+.dotsThird{
+    position: absolute;
+    top:2783px;
+    right:0;
+}
+.leadingHealthcare{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 230px;
+}
+.leadingHealthcare h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    margin-bottom: 35px;
+}
+.leadingHealthcare h2::after{
+    content: '';
+    border-bottom: 2px solid #000;
+    width: 56px;
+    display: block;
+    margin-top: 25px;
+}
+.leadingHealthcare .right{
+    max-width: 490px;
+    margin-left: 142px;
+    align-items: center;
+}
+.leadingHealthcare img{
+    display: flex;
+    width: 52%;
+    max-width: 650px;
+    align-items: center;
+    object-fit: contain;
+}
+.leadingHealthcare .right p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-bottom: 37px;
+}
+.leadingHealthcare .right button{
+    font-weight: bold;
+    font-size: 18px;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    background-color: white;
+    border-radius: 55px;
+    padding: 17px 50px 17px 50px;
+    display: block;
+}
+.downloadApps{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 270px;
+}
+.downloadApps .left{
+    align-items: center;
+    margin-right: 70px;
+    max-width: 380px;
+}
+.downloadApps>img{
+    display: flex;
+    width: 52%;
+    max-width: 650px;
+    align-items: center;
+    object-fit: contain;
+}
+
+.downloadApps h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    margin-bottom: 35px;
+}
+.downloadApps h2::after{
+    content: '';
+    border-bottom: 2px solid #000;
+    width: 56px;
+    display: block;
+    margin-top: 25px;
+}
+.downloadApps p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-bottom: 30px;
+}
+.downloadApps button{
+    font-weight: bold;
+    font-size: 18px;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    background-color: white;
+    border-radius: 55px;
+    padding: 17px 45px 17px 45px;
+    display: block;
+    min-width: 200px;
+}
+.downloadApps button img{
+    margin-left: 14px;
+}
+.reviews{
+    max-width: 1120px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    color: white;
+    align-items: center;
+    padding: 64px 90px 80px 90px;
+    margin: 0 auto 42px auto;
+}
+.reviews h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    margin-bottom: 70px;
+    color: white;
+}
+.reviews h2::after{
+    content: '';
+    border-bottom: 2px solid white;
+    width: 60px;
+    display: block;
+    margin: 25px auto 0 auto;
+}
+.customers{
+    display: flex;
+    align-items: center;
+}
+.reviews .left{
+    align-items: center;
+}
+.reviews .customers .middle {
+    font-size: 19px;
+    line-height: 30px;
+    margin: 0 80px 0 30px;
+}
+.reviews .right{
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+} 
+.reviews>.dotsReviews{
+    position: absolute;
+    z-index: 2;
+    top: -14px;
+    right: -45px;
+}
+.middle h3{
+    font-weight: bold;
+    font-size: 22px;
+}
+.middle p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.85);
+}
+.customers .dotsReviews{
+    position: absolute;
+    z-index: -1;
+    bottom: -60px;
+    left: -170px;
+}
+.arrowNav{
+    display: block;
+    max-width: 340px;
+    margin: 0 auto 220px auto;
+}
+.fifth{
+    margin:0 auto 70px auto;
+}
+.articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 35px;
+    max-width: 1120px;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.fifth h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    margin-bottom: 70px;
+    color: black;
+}
+.fifth h2::after{
+    content: '';
+    border-bottom: 2px solid #000;
+    width: 56px;
+    display: block;
+    margin: 25px auto 0 auto;
+}
+.fifth h3{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+}
+.fifth p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+.articles div>img{
+    width: 100%;
+}
+.articles>div{
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+.fifth .drop{
+    position: absolute;
+    z-index: -1;
+    top: 88px;
+    right: -455px;
+}
+.articles a img{
+    padding-left: 13px;
+}
+.articles .content{
+    margin: 24px 51px 35px 33px; 
+}
+.content p{
+    margin: 12px 0 25px 0;
+}
+.content a{
+    margin-bottom: 35px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+}
+.fifth .dotsArticles{
+    position: absolute;
+    z-index: -1;
+    top: -45px;
+    left: -50px;
+}
+.fifth button{
+    font-weight: bold;
+    font-size: 18px;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    background-color: white;
+    border-radius: 55px;
+    padding: 17px 45px 17px 45px;
+    display: block;
+    min-width: 200px;  
+    margin: 0 auto 200px auto;
+}
+.footerWrapper{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 118px 0 110px 0;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    width: 100%;
+}
+.footerDotsUp{
+    position: absolute;
+    bottom: -240px;
+    right: -90px;
+    z-index: -1;
+}
+footer .trafalgar{
+    max-width: 380px;
+}
+footer .trafalgar .logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+.T{
+    font-weight: bold;
+    font-size: 26px;
+    background: white;
+    color: #5B9BF3;
+    padding: 7px 13px;
+    border-radius: 50%;
+    display: inline;
+    margin-right: 12px;
+}
+footer .trafalgar h3{
+    display: inline;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+footer ul{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+}
+footer .trafalgar p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 390px;
+}
+footer .trafalgar p:first-child{
+    margin-bottom: 31px;
+}
+footer .footerDots{
+    position: absolute;
+    bottom: 0px;
+    left: -20px;
+}
+.logoBottom{
+    fill: white;
+}
+footer h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+@media (max-width: 1024px) {
+    .firstContainer{
+        margin-bottom: 100px;
+    } 
+    .firstContainer .left h1{
+        font-size: 40px;
+    }
+    .firstContainer .left{
+        width: 60%;
+    }
+    .firstContainer img{
+        width: 50%;
+    }
+    .services>p{
+        margin-bottom: 50px;
+    }
+    .services h2{
+        font-size: 32px;
+    }
+    .servicesGrid h3{
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .servicesGrid div{
+        padding: 20px;
+        min-height: 290px;
+    }
+    .servicesGrid div img{
+        width: 50px;
+        margin-bottom: 0;
+    }
+    .servicesGrid p{
+        line-height: 20px; 
+    }
+    .leadingHealthcare img{
+        width: 45%;
+    }
+    .leadingHealthcare .right{
+        margin-left: 50px;
+    }
+    .downloadApps>img{
+        width: 50%;
+    }
+    .leadingHealthcare{
+        margin-bottom: 100px;
+    }
+    .downloadApps{
+        margin-bottom: 150px;
+    }
+    .downloadApps .left{
+        margin-right: 50px;
+    }
+    .reviews{
+    padding: 50px 60px 60px 60px;
+    }
+    .reviews h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .reviews p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .reviews .customers .middle{
+        margin-right: 60px;
+    }
+    .middle h3{
+        font-size: 20px;
+    }
+    .arrowNav{
+        margin-bottom: 100px;
+    }
+    .fifth button{
+        margin-bottom: 150px;
+    }
+    .footerWrapper{
+        padding: 70px 0 70px 0;
+    }
+    footer ul{
+        font-size: 15px;
+        line-height: 23px;
+        line-height: 28px;
+    }
+    .articles{
+        margin-bottom: 50px;
+    }
+    .articles .content{
+        margin: 24px 15px 35px 15px;
+    }
+    .fifth h3{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .content a{
+        font-size: 13px;
+    }
+    footer .footerDots{
+        opacity: 0.3;
+    }
+    .dots{
+        opacity: 0.3;
+    }
+    .dotsThird{
+        opacity: 0.3;
+    }
+    .servicesGrid .dotsMiddle{
+        opacity: 0.3;
+    }
+    footer .trafalgar p{
+        font-size: 15px;
+    }
+}
+@media(max-width:844px){
+    nav .rightSide ul{
+        display: none;
+    }
+    .sandwich{
+        width: 50px;
+        display: block;
+    }
+    .servicesGrid{
+        grid-template-columns: 1fr 1fr;
+        max-width: 530px;
+        margin-bottom: 40px;
+    }
+    .reviews {
+        padding: 30px 30px 30px 30px;
+    }
+    .reviews h2{
+        margin-bottom: 18px;
+    }
+    .reviews .customers .middle {
+        margin: 0 18px;
+    }
+    .reviews p {
+        font-size: 15px;
+    }
+    .fifth button {
+        margin-bottom: 100px;
+    }
+    .content p{
+        display: none;
+    }
+    .articles .content {
+        margin: 24px 15px 24px 15px;
+    }
+    .footerWrapper {
+        padding: 50px 0 50px 0;
+    }
+    footer .trafalgar {
+        margin-right: 20px;
+        max-width: 220px;
+    }
+    body > footer > div > div.company{
+        margin-right: 20px;  
+    }
+    body > footer > div > div.region{
+        margin-right: 20px;
+    }
+    footer .trafalgar p {
+        font-size: 13px;
+    }
+}
+@media (max-width:650px){
+    body>.drop {
+        position: absolute;
+        top: 674px;
+        left: -20.42px;
+        opacity: 0.6;
+        z-index: 0;
+        width: 64%;
+    }
+    nav{
+        padding-top: 40px;
+    }
+    nav .logo {
+        width: 140px;
+        height: 35px;
+    }
+    .fifth .drop {
+        position: absolute;
+        z-index: -1;
+        top: 66px;
+        right: -125px;
+        width: 64%;
+    }
+    .sandwich {
+        width: 35px;
+    }
+    .firstContainer .left h1 {
+        font-size: 24px;
+        line-height: 1.8em;
+        width: 100%;
+    }
+    .firstContainer .left p {
+        font-size: 17px;
+        line-height: 1.8em;
+        margin-bottom: 20px;
+    }
+    .firstContainer .left button {
+        font-size: 15px;
+        padding: 10px 30px 10px 30px;
+    }
+    .firstContainer {
+        margin-bottom: 70px;
+    }
+    .servicesGrid{
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        align-items: flex-end;
+        margin: 0 0 40px 0;
+    }
+    .servicesGrid div {
+        display: block;
+        align-items: start;
+        text-align: center;
+        min-height: 104px;
+        padding: 10px 10px 10px 10px;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        background-color: white;
+    }
+    .services h2 {
+        font-size: 22px;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+    .services h2::after {
+        content: '';
+        margin-top: 0;
+        margin: 0;
+    }
+    .services>p{
+        font-size: 17px;
+        line-height: 1.8em;
+        text-align: left;
+        margin: 20px 0 20px 0;
+    } 
+    .services{
+        margin-bottom: 70px;
+    }
+    .services button{
+        font-size: 15px;
+        padding: 10px 30px 10px 30px;
+        margin: 0;
+    }
+    .servicesGrid h3 {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 700;
+        margin: 8px 0 0 0;
+    }
+    .servicesGrid p{
+        display: none;
+    }
+    .servicesGrid div img{
+        width: 30px;
+        min-height: 41px;
+    }
+   
+    .leadingHealthcare h2 {
+        font-size: 22px;
+        line-height: 1.8em;
+        margin-bottom: 25px;
+        text-align: left;
+    }
+    .leadingHealthcare h2::after{
+        content: '';
+        margin-top: 13px;
+    }
+    .leadingHealthcare .right button{
+        font-size: 15px;
+        padding: 10px 30px 10px 30px;
+    }
+    .leadingHealthcare .right {
+        margin-left: 0;
+        text-align: left;
+        max-width: none;
+    }
+    .leadingHealthcare .right p{
+        margin-bottom: 20px;
+        font-size: 17px;
+        line-height: 1.8em;
+    }
+    .downloadApps h2{
+        font-size: 22px;
+        margin-bottom: 25px;
+        line-height: 1.8em;
+    }
+    .downloadApps h2 br{
+        display: none;
+    }
+    .downloadApps .left{
+        text-align: left;
+        margin-right: 0;
+        max-width: none;
+    }
+    .downloadApps h2::after {
+        margin-top: 15px;
+    }
+    .leadingHealthcare {
+        margin-bottom: 70px;
+        flex-flow: column;
+        align-items: normal;
+    }
+    .leadingHealthcare img{
+        display: none;
+    }
+    .downloadApps img{
+        display: none;
+    }
+    .downloadApps button{
+        font-size: 15px;
+        padding: 10px 30px 10px 30px;
+        min-width: auto;
+    }
+    .downloadApps {
+        margin-bottom: 100px;
+        margin-bottom: 70px;
+        flex-flow: column;
+        align-items: normal;
+    }
+    .downloadApps p{
+        margin-bottom: 20px;
+        font-size: 17px;
+        line-height: 1.8em;
+    }
+    body > div > div.reviews > div > div.left > img{
+        width: 70px;
+    }
+    .middle h3 {
+        font-size: 16px;
+    }
+
+    .reviews {
+        display: none;
+    }
+    .fifth h2{
+        font-size: 24px;
+        text-align: left;
+    }
+    .fifth h2::after{
+        margin: 0;
+    }
+    .arrowNav {
+        display: none;
+    }
+    .fifth h2{
+        margin-bottom: 30px;
+    }
+    .fifth button{
+        font-size: 15px;
+        padding: 10px 30px 10px 30px;
+        min-width: 140px; 
+        margin: 0;
+    }
+    .articles {
+        margin-bottom: 30px;
+    }
+    .fifth h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .articles .content {
+        margin: 15px 10px 15px 10px;
+    }
+    .articles span{
+        display: none;
+    }
+    .content a {
+        font-size: 11px;
+    }
+    footer .trafalgar p{
+        display: none;
+    }
+    footer ul{
+        display: none;
+    }
+    footer .footerDots {
+        display: none;
+    }
+    .footerWrapper {
+        padding: 15px;
+    }
+    .footerDotsUp {
+        bottom: -140px;
+    }
+    footer .trafalgar h3, h4{
+        cursor: pointer;
+    }
+    footer h4{
+        font-size: 16px;
+        margin-bottom: 0;
+        font-weight: normal;
+    }
+    footer .trafalgar h3{
+        font-size: 16px;
+        margin-bottom: 0;
+        font-weight: normal;
+    }
+    footer .trafalgar .logo{
+        margin-bottom: 0;
+    }
+    footer .trafalgar h3:hover{
+        font-weight: 900;
+    }
+    footer h4:hover{
+        font-weight: 900;
+    }
+    .fifth .drop {
+        position: absolute;
+        z-index: -1;
+        top: 40px;
+        right: -125px;
+        width: 268px;
+    }
+    .dotsThird{
+        display: none;
+    }
+}
+@media(max-width: 420px){
+    body>.drop{
+        opacity: 0.5;
+    }
+    nav {
+        margin-bottom: 50px;
+    }
+    .sandwich{
+        width: 30px;
+    }
+    .firstContainer{
+        flex-flow: column;
+        align-items: flex-start;
+    } 
+    .firstContainer img{
+        order: 1;
+        width: 70%;
+        margin-right: 0;
+    }
+    .firstContainer .left{
+        order: 2;
+        margin-right: 0;
+        width: 100%;
+    }
+    .firstContainer .left h1{
+        font-size: 20px;
+    }
+    .firstContainer .left p{
+        font-size: 15px;
+    }
+    .firstContainer .left button {
+        font-size: 13px;
+        padding: 7px 10px;
+        min-width: 130px;
+    }
+    .services h2{
+        font-size: 20px;
+    }
+    .services>p{
+        font-size: 15px;
+    }
+    .servicesGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .servicesGrid h3{
+        font-size: 12px;
+    }
+    .services button{
+        font-size: 13px;
+        padding: 7px 10px;
+        min-width: 130px;
+    }
+    .leadingHealthcare h2{
+        font-size: 20px;
+    }
+    .leadingHealthcare .right p{
+        font-size: 15px;
+    }
+    .leadingHealthcare .right button{
+        font-size: 13px;
+        padding: 7px 10px;
+        min-width: 130px;
+    }
+    .articles{
+       display: block;
+    }
+    .fifth .drop {
+        top: 188px;
+        right: -52px;
+        width: 268px;
+        opacity: 0.3;
+    }
+    .articles div>img{
+        display: none;
+    }
+    .fifth h2{
+        font-size: 20px;
+    }
+    .fifth h3{
+        font-size: 15px;
+    }
+    .fifth button{
+        font-size: 13px;
+        padding: 7px 10px;
+        min-width: 130px;
+    }
+    .articles .content h3 span{
+        display: unset;
+    }
+    .articles .content p{
+        display: unset;
+        line-height: 1.5em;
+        font-size: 13px;
+    }
+    .articles>div{
+        background: unset;
+        border-radius: unset;
+        box-shadow: unset;
+    }
+    .content a{
+        display: block;
+    }
+    .fifth .dotsArticles{
+        opacity: 0.3;
+    }
+    .articles .content {
+        margin: 15px 0 15px 0;
+    }
+
+    .downloadApps h2{
+        font-size: 20px;
+    }
+    .downloadApps p{
+        font-size: 15px;
+    }
+    .downloadApps button{
+        font-size: 13px;
+        padding: 7px 10px;
+        min-width: 130px;
+    }
+    .footerDotsUp{
+        opacity: 0.5;
+        bottom: -100px
+    }
+    .footerWrapper{
+        width: 100%;
+        padding: 10px;
+    }
+    footer .trafalgar h3{
+        font-size: 12px;
+    }
+    footer h4{
+        font-size: 12px;
+    }
+    body > footer > div> div {
+        margin-right: 10px;
+    }
+    .T{
+        font-size: 25px;
+        padding: 4px 10px;
+        margin-right: 4px;
+    }
+}
